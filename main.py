@@ -264,10 +264,10 @@ class BiliFollowerMonitor:
         
         try:
             interval = int(self.interval_entry.get())
-            if interval < 0:
+            if interval < 40:
                 raise ValueError
         except ValueError:
-            messagebox.showerror("错误", "请输入≥20秒的整数间隔时间")
+            messagebox.showerror("错误", "请输入≥40秒的整数间隔时间")
             return False
         
         return True
