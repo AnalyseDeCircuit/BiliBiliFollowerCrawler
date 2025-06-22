@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+*.tmp
+*.DS_Store
+.env
+.venv
+venv/
+ENV/
+.envrc
+.idea/
+.vscode/
+*.tgz
+*.tar.gz
+*.zip
+*.bak
+*.orig
+# Jupyter
+.ipynb_checkpoints/
+# OS
+Thumbs.db
+.DS_Store
+# Logs
+log/
+logs/
+*.log
+# Tkinter window config
+*.tcl
+# CSV/可视化导出
+*.csv
